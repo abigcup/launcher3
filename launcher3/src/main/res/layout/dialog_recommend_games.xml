@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/whmatch">
+
+    <LinearLayout
+        style="@style/pop_desktop_list_high"
+        android:layout_alignParentBottom="false">
+
+        <RelativeLayout style="@style/pop_desktop_list_top">
+
+            <TextView
+                android:id="@+id/text_recommend"
+                style="@style/pop_desktop_list_top_text"
+                android:text="@string/pop_desktop_list_top_text" />
+
+            <ImageView
+                android:id="@+id/image_close"
+                style="@style/pop_desktop_close" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_games"
+            style="@style/hauto"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</RelativeLayout>

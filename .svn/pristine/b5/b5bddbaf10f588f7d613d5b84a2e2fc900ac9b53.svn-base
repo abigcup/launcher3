@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apps>
+    <!--天天输入法 com.android.inputmethod.ime-->
+    <!--GO输入法 com.jb.emoji.gokeyboard-->
+
+
+    <!--huawei渠道-->
+    <!--不提供应用抽屉，设置，相册等系统应用入口-->
+    <huawei name="下载" packageName="com.android.providers.downloads.ui"/>
+    <huawei name="图库" packageName="com.android.gallery3d"/>
+    <!--<huawei name="设置" packageName="com.android.settings"/>-->
+    <huawei name="相机" packageName="com.android.camera"/>
+    <huawei name="浏览器" packageName="com.android.browser"/>
+
+
+    <!--华为arm机-->
+    <huawei name="calendar" packageName="com.android.calendar"/>
+    <huawei name="camera2" packageName="com.android.camera2"/>
+    <huawei name="clock" packageName="com.android.deskclock"/>
+    <huawei name="dialer" packageName="com.android.dialer"/>
+    <huawei name="messaging" packageName="com.android.messaging"/>
+    <huawei name="music" packageName="com.android.music"/>
+    <!--<huawei name="settings" packageName="com.android.settings"/>-->
+    <!--<huawei name="filemanager" packageName="com.cyanogenmod.filemanager"/>-->
+    <huawei name="calculator2" packageName="com.android.calculator2"/>
+    <huawei name="documentsui" packageName="com.android.documentsui"/>
+    <huawei name="quicksearchbox" packageName="com.android.quicksearchbox"/>
+    <huawei name="webview_shell" packageName="org.chromium.webview_shell"/>
+    <huawei name="telephonytests" packageName="com.android.frameworks.telephonytests"/>
+
+
+    <!--预置应用-->
+    <huawei name="搜狗输入法" packageName="com.sohu.inputmethod.sogou"/>
+
+    <!--原动态屏蔽-->
+    <huawei name="电子邮件" packageName="com.android.email"/>
+    <huawei name="launcher3" packageName="com.kaopu.ecy.launcher3"/>
+    <huawei name="launcher" packageName="com.android.launcher"/>
+    <huawei name="ime" packageName="com.tiantian.ime"/>
+    <huawei name="superuser" packageName="com.thirdparty.superuser"/>
+</apps>

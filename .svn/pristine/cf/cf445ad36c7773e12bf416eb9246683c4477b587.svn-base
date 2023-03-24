@@ -1,0 +1,119 @@
+<resources>
+	<style name="pop_desktop_list" parent="hauto">
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="android:layout_marginLeft">@dimen/dp10</item>
+		<item name="android:layout_marginRight">@dimen/dp10</item>
+		<item name="android:layout_height">265dp</item>
+		<item name="android:background">@drawable/bg_pop_desktop_list</item>
+		<item name="android:layout_marginBottom">@dimen/dp10</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="pop_desktop_list_high" parent="pop_desktop_list">
+		<item name="android:layout_height">400dp</item>
+	</style>
+	<style name="pop_desktop_list_top" parent="hauto">
+		<item name="android:paddingLeft">@dimen/dp14</item>
+		<item name="android:paddingRight">@dimen/dp4</item>
+		<item name="android:layout_height">@dimen/dp48</item>
+	</style>
+	<style name="pop_desktop_list_top_text" parent="whauto">
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	<style name="pop_desktop_close" parent="whauto">
+		<item name="android:padding">@dimen/dp10</item>
+		<item name="android:src">@drawable/ic_desktop_close</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	<style name="pop_desktop_list_item" parent="hauto">
+		<item name="android:layout_height">@dimen/dp70</item>
+		<item name="android:paddingLeft">@dimen/dp14</item>
+		<item name="android:paddingRight">@dimen/dp14</item>
+	</style>
+	<style name="pop_desktop_list_item_image">
+		<item name="android:layout_width">@dimen/dp44</item>
+		<item name="android:layout_height">@dimen/dp44</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	<style name="pop_desktop_text" parent="hauto">
+		<item name="android:layout_marginLeft">@dimen/dp60</item>
+		<item name="android:layout_marginRight">@dimen/dp76</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_height">@dimen/dp44</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	<style name="pop_desktop_text_name" parent="hauto">
+		<item name="android:textSize">@dimen/fs16</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="pop_desktop_text_user" parent="hauto">
+		<item name="android:textSize">@dimen/fs12</item>
+		<item name="android:textColor">#FF0009</item>
+		<item name="android:layout_marginTop">@dimen/dp6</item>
+	</style>
+	<style name="pop_desktop_btn">
+		<item name="android:layout_width">@dimen/dp60</item>
+		<item name="android:layout_height">@dimen/dp24</item>
+		<item name="android:background">@drawable/btn_rec4_blue</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">@dimen/fs12</item>
+		<item name="android:textColor">#fff</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	<style name="pop_item_line" parent="hauto">
+		<item name="android:layout_height">1dp</item>
+		<item name="android:background">#E3E3E3</item>
+		<item name="android:layout_marginLeft">@dimen/dp10</item>
+		<item name="android:layout_marginRight">@dimen/dp10</item>
+	</style>
+	<style name="notice_content" parent="whauto">
+		<item name="android:layout_width">332dp</item>
+		<item name="android:background">@drawable/bg_notice_img</item>
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:layout_marginBottom">150dp</item>
+		<item name="android:paddingLeft">@dimen/dp14</item>
+	</style>
+	<style name="notice_img">
+		<item name="android:layout_width">25dp</item>
+		<item name="android:layout_height">23dp</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	<style name="notice_text" parent="whauto">
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:textSize">@dimen/fs14</item>
+		<item name="android:textColor">#fff</item>
+		<item name="android:layout_marginLeft">@dimen/dp40</item>
+		<item name="android:drawableRight">@drawable/ic_notice_drop</item>
+		<item name="android:drawablePadding">@dimen/dp10</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:layout_marginRight">50dp</item>
+	</style>
+	<style name="notice_close" parent="whauto">
+		<item name="android:src">@drawable/ic_notice_close</item>
+		<item name="android:padding">@dimen/dp10</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_alignParentRight">true</item>
+	</style>
+	<!--v2.1.9-->
+	<style name="desktop_true" parent="whauto">
+		<item name="android:background">@drawable/bg_true_desktop</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="desktop_true_add" parent="whauto">
+		<item name="android:drawableTop">@drawable/ic_desktop_add_way</item>
+		<item name="android:textSize">@dimen/fs10</item>
+		<item name="android:textColor">#dcdcdc</item>
+		<item name="android:gravity">center</item>
+		<item name="android:drawablePadding">@dimen/dp10</item>
+		<item name="android:layout_marginRight">@dimen/dp20</item>
+	</style>
+	<style name="desktop_true_del" parent="desktop_true_add">
+		<item name="android:drawableTop">@drawable/ic_desktop_add_del</item>
+		<item name="android:layout_marginRight">@dimen/dp10</item>
+	</style>
+</resources>

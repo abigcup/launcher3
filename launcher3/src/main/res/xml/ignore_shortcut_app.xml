@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apps>
+    <!--qq浏览器-->
+    <huawei name="QQ浏览器" packageName="com.tencent.mtt"/>
+</apps>

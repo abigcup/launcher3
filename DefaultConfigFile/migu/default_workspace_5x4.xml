@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <!--桌面时钟-->
+    <appwidget
+        packageName="com.android.deskclock"
+        className="com.android.alarmclock.DigitalAppWidgetProvider"
+        screen="0"
+        x="0"
+        y="0"
+        spanX="4"
+        spanY="2" />
+    <!--电话-->
+    <resolve
+        container="-101"
+        screen="0"
+        x="0"
+        y="0" >
+        <favorite
+            packageName="com.android.dialer"
+            className="com.android.dialer.DialtactsActivity"/>
+    </resolve>
+    <!--信息-->
+    <resolve
+        container="-101"
+        screen="1"
+        x="1"
+        y="0" >
+        <favorite
+            packageName="com.android.messaging"
+            className="com.android.messaging.ui.conversationlist.ConversationListActivity"/>
+    </resolve>
+    <!--微信-->
+    <resolve
+        container="-101"
+        screen="2"
+        x="2"
+        y="0" >
+        <favorite
+            packageName="com.tencent.mm"
+            className="com.tencent.mm.ui.LauncherUI"/>
+    </resolve>
+    <!--移动云云空间-->
+    <resolve
+        container="-101"
+        screen="3"
+        x="3"
+        y="0" >
+        <favorite
+            packageName="com.cmss.skydrive"
+            className="com.shinemo.qoffice.biz.login.SplashActivity"/>
+    </resolve>
+    <!--第一屏第四行-->
+    <!--日历-->
+    <favorite
+        packageName="com.android.calendar"
+        className="com.android.calendar.AllInOneActivity"
+        screen="0"
+        x="0"
+        y="3" />
+    <!--图库-->
+    <favorite
+        packageName="com.android.gallery3d"
+        className="com.android.gallery3d.app.GalleryActivity"
+        screen="0"
+        x="1"
+        y="3" />
+    <!--时钟-->
+    <favorite
+        packageName="com.google.android.deskclock"
+        className="com.android.deskclock.DeskClock"
+        screen="0"
+        x="2"
+        y="3" />
+    <!--设置-->
+    <favorite
+        packageName="com.android.settings"
+        className="com.android.settings.Settings"
+        screen="0"
+        x="3"
+        y="3" />
+    <!--第一屏第五行-->
+    <!--扩展服务-->
+    <favorite
+        packageName="com.cyjh.gps"
+        className="com.cyjh.gps.MainActivity"
+        screen="0"
+        x="0"
+        y="4" />
+    <!--应用中心-->
+    <favorite
+        packageName="com.cyjh.appmarket"
+        className="com.cyjh.appmarket.activity.WelcomeActivity"
+        screen="0"
+        x="1"
+        y="4" />
+    <!--上传管理-->
+    <favorite
+        packageName="com.cyjh.filemanager"
+        className="com.cyjh.filemanager.activity.filemanager.FileActivity"
+        screen="0"
+        x="2"
+        y="4" />
+    <!--文件管理-->
+    <favorite
+        packageName="ru.zdevs.zarchiver.pro"
+        className="ru.zdevs.zarchiver.pro.ZArchiver"
+        screen="0"
+        x="3"
+        y="4" />
+    <!--第二屏第一行-->
+    <!--计算器-->
+    <favorite
+        packageName="com.google.android.calculator"
+        className="com.android.calculator2.Calculator"
+        screen="1"
+        x="0"
+        y="0" />
+    <!--记事本-->
+    <favorite
+        packageName="com.smartisan.notes"
+        className="com.smartisan.notes.NewNotesActivity"
+        screen="1"
+        x="1"
+        y="0" />
+    <!--浏览器-->
+    <favorite
+        packageName="com.android.chrome"
+        className="com.google.android.apps.chrome.Main"
+        screen="1"
+        x="2"
+        y="0" />
+    <!--咪咕圈圈-->
+    <favorite
+        packageName="com.hisunflytone.android"
+        className="com.migucc.module.home.mvvm.ui.init.InitActivity"
+        screen="1"
+        x="3"
+        y="0" />
+    <!--第二屏第二行-->
+    <!--QQ-->
+    <favorite
+        packageName="com.tencent.mobileqq"
+        className="com.tencent.mobileqq.activity.SplashActivity"
+        screen="1"
+        x="0"
+        y="1" />
+    <!--咪咕视频-->
+    <favorite
+        packageName="com.cmcc.cmvideo"
+        className="com.cmcc.cmvideo.splash.SplashActivity"
+        screen="1"
+        x="1"
+        y="1" />
+    <!--咪咕音乐-->
+    <favorite
+        packageName="cmccwm.mobilemusic"
+        className="cmccwm.mobilemusic.ui.base.SplashActivity"
+        screen="1"
+        x="2"
+        y="1" />
+    <!--咪咕阅读-->
+    <favorite
+        packageName="com.ophone.reader.ui"
+        className="com.cmread.bplusc.bookshelf.LocalMainActivity"
+        screen="1"
+        x="3"
+        y="1" />
+    <!--第二屏第三行-->
+    <!--咪咕快游-->
+    <favorite
+        packageName="cn.emagsoftware.gamehall"
+        className="cn.emagsoftware.gamehall.ui.activity.splash.PrivicyActivity"
+        screen="1"
+        x="0"
+        y="2" />
+    <!--Root授权-->
+    <favorite
+        packageName="com.cyjh.config.apps"
+        className="com.cyjh.config.apps.MainActivity"
+        screen="1"
+        x="1"
+        y="2" />
+</favorites>

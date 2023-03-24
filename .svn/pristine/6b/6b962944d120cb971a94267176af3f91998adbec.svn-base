@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">桌面快捷方式</string>
+    <!--1.5.2-->
+    <string  name="pop_desktop_list_top_text">安装了微信的小伙伴还会喜欢</string>
+    <string name="pop_desktop_install">安装</string>
+    <string name="notice_text">多多云手机为你提供实时在线提供实时在线</string>
+    <!--v2.1.9-->
+    <string name="desktop_true_add">添加真机桌面</string>
+    <string name="desktop_true_del">卸载</string>
+</resources>

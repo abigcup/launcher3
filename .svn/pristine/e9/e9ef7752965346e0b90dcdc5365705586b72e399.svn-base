@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apps>
+    <huawei name="上传管理" packageName="com.cyjh.filemanager"/>
+
+    <huawei name="应用市场" packageName="com.cyjh.appmarket"/>
+    <huawei name="应用市场" packageName="com.cyjh.appstore"/>
+    <huawei name="应用市场" packageName="com.cyjh.appcenter"/>
+
+    <huawei name="QQ浏览器" packageName="com.tencent.mtt"/>
+</apps>

@@ -1,0 +1,1 @@
+在配置读取的data/local/setting/default_workspace_5x4.xml中，要把dw_phone_hotseat热区的配置完全复制过来，不用launcher:命名空间，要删除

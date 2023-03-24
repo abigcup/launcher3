@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <appwidget
+        packageName="com.android.deskclock"
+        className="com.android.alarmclock.DigitalAppWidgetProvider"
+        screen="0"
+        x="0"
+        y="0"
+        spanX="4"
+        spanY="2" />
+		
+	<resolve
+    container="-101"
+    screen="0"
+    x="0"
+    y="0" >
+        <favorite
+        packageName="com.cyjh.gps"
+        className="com.cyjh.gps.MainActivity"/>
+    </resolve>
+
+
+    <!--上传管理-->
+    <resolve
+    container="-101"
+    screen="1"
+    x="1"
+    y="0" >
+    <favorite
+        packageName="com.cyjh.filemanager"
+        className="com.cyjh.filemanager.activity.filemanager.FileActivity"/>
+    </resolve>
+
+    <!--应用市场-->
+    <resolve
+        container="-101"
+        screen="2"
+        x="2"
+        y="0" >
+        <favorite
+            packageName="com.cyjh.appmarket"
+            className="com.cyjh.appmarket.activity.WelcomeActivity"/>
+    </resolve>
+
+    <!--QQ浏览器-->
+    <resolve
+        container="-101"
+        screen="3"
+        x="3"
+        y="0" >
+        <favorite
+            packageName="com.tencent.mtt"
+            className="com.tencent.mtt.SplashActivity"/>
+    </resolve>
+
+    <favorite
+        packageName="com.android.contacts"
+        className="com.android.contacts.activities.PeopleActivity"
+        screen="1"
+        x="0"
+        y="0" />
+</favorites>

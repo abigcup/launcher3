@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+    <!-- General -->
+    <skip />
+
+    <string name="startingVPNGame">启动游戏中，请稍后的说(๑•̀ㅂ•́)و✧...</string>
+    <string name="startVPNGameSuccess">启动成功了耶</string>
+    <string name="startVPNGameFail">加速失败，可能是当前网络人太多了，请尝试重新启动游戏(╯°口°)╯(┴—┴</string>
+    <string name="VPNGameMovetoBackground">游戏退到后台，服务已暂停(ˉ▽￣～) ~~</string>
+    <string name="tasks_manager_name">task: %d</string>
+
+    <string name="status_installing">安装中..</string>
+    <string name="status_downloading">下载..%d%%</string>
+    <string name="status_pause">继续</string>
+    <string name="install_failure">%s安装失败</string>
+    <string name="recommend_tip">%d%%的用户安装</string>
+    <string name="recommend_text">安装了%s的小伙伴还会喜欢</string>
+    <string name="pop_installing">安装中</string>
+    <string name="pop_open">打开</string>
+    <string name="install_success">%s安装成功</string>
+
+    <string name="pop_update_version">检测到您的%s应用版本过旧，请进行更新以免影响使用</string>
+    <string name="pop_update_btn_cancel">退出</string>
+    <string name="pop_update_btn_update">更新</string>
+    <string name="pop_update_version_update">检测到您的%s应用已有更新版本，是否进行更新</string>
+    <string name="pop_update_btn_open">仍然启动</string>
+    <string name="pop_update_progress_notice">新版本正在努力更新中，请等候</string>
+    <string name="update_version_failed">更新失败</string>
+    <string name="update_install_failed">安装失败</string>
+    <string name="update_success">更新成功</string>
+</resources>

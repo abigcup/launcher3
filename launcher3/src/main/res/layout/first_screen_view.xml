@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/first_screen_bg_shape"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/first_screen_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="@dimen/dp18"
+        android:layout_marginRight="@dimen/dp18"
+        android:background="@drawable/search_shape" >
+        <ImageView
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/all_apps_search_bar_height"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:contentDescription="@string/all_apps_search_bar_hint"
+            android:src="@drawable/ic_search_grey" />
+        <LinearLayout
+            android:id="@+id/first_search_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_apps_search_bar_height"
+            android:layout_gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/dismiss_search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="@string/all_apps_button_label"
+                android:visibility="invisible"
+                android:src="@drawable/ic_arrow_back_grey" />
+
+            <com.android.launcher3.ExtendedEditText
+                android:id="@+id/search_box_input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:focusableInTouchMode="false"
+                android:gravity="fill_horizontal|center_vertical"
+                android:hint="@string/all_apps_search_bar_hint"
+                android:inputType="text|textNoSuggestions|textCapWords"
+                android:imeOptions="actionSearch|flagNoExtractUi"
+                android:maxLines="1"
+                android:paddingLeft="8dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#4c4c4c"
+                android:textColorHint="#FFF"
+                android:clickable="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/first_screen_date_content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="03月02日 星期四"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/dp20"
+        android:textSize="28sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/first_screen_date_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="农历 二月十一"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/common_app_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@drawable/calendar_shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="常用应用"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_marginBottom="@dimen/dp20"
+            android:background="@drawable/calendar_shape">
+
+            <LinearLayout
+                android:id="@+id/common_app1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp">
+                    <ImageView
+                        android:id="@+id/common_use_app1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/all_apps_button_label"
+                        />
+                    <TextView
+                        android:id="@+id/common_use_app_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="常用应用"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:maxEms="4"
+                        android:singleLine="true"
+                        android:ellipsize="end"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/common_app2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp">
+                <ImageView
+                    android:id="@+id/common_use_app2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/all_apps_button_label"
+                    />
+                <TextView
+                    android:id="@+id/common_use_app_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="常用应用"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:maxEms="4"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/common_app3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp">
+                <ImageView
+                    android:id="@+id/common_use_app3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/all_apps_button_label"
+                    />
+                <TextView
+                    android:id="@+id/common_use_app_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="常用应用"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:maxEms="4"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/common_app4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp">
+                <ImageView
+                    android:id="@+id/common_use_app4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/all_apps_button_label"
+                    />
+                <TextView
+                    android:id="@+id/common_use_app_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="常用应用"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:maxEms="4"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp">
+                <ImageView
+                    android:id="@+id/common_use_app5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/all_apps_button_label"
+                    />
+                <TextView
+                    android:id="@+id/common_use_app_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="常用应用"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:maxEms="4"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/calendar_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp20"
+    android:layout_marginLeft="@dimen/dp20"
+    android:layout_marginRight="@dimen/dp20"
+    android:background="@drawable/calendar_shape">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日历"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <com.haibin.calendarview.CalendarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:default_status="shrink"
+        app:calendar_show_mode="only_week_view"
+        >
+
+    <com.haibin.calendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:current_month_text_color="#333333"
+        app:current_month_lunar_text_color="#CFCFCF"
+
+        app:min_year="2004"
+        app:max_year="2020"
+        app:other_month_text_color="#e1e1e1"
+        app:other_month_lunar_text_color="#e1e1e1"
+        app:scheme_text="假"
+        app:scheme_text_color="#333"
+        app:scheme_theme_color="#128c4b"
+        app:selected_lunar_text_color="#CFCFCF"
+        app:week_view="com.android.hwyun.calendar.MeizuWeekView"
+        app:selected_text_color="#333"
+        app:selected_theme_color="#108cd4"
+        app:week_background="#fff"
+        app:week_text_color="#111"
+        app:year_view_day_text_color="#333333"
+        app:year_view_day_text_size="9sp"
+        app:year_view_month_text_color="#ff0000"
+        app:year_view_month_text_size="20sp"
+        app:year_view_scheme_color="#f17706"/>
+
+    </com.haibin.calendarview.CalendarLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新建日程"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/calendar_shape"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/card_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="管理卡片"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:background="@drawable/calendar_shape"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

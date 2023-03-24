@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/pop_desktop_list_item" >
+    <ImageView
+        android:id="@+id/pop_desktop_list_item_image"
+        style="@style/pop_desktop_list_item_image"
+        android:src="@drawable/del_downlist_img"/>
+    <LinearLayout style="@style/pop_desktop_text">
+        <TextView
+            android:id="@+id/pop_desktop_text_name"
+            style="@style/pop_desktop_text_name"
+            android:text="棋牌游戏辅助"/>
+        <TextView
+            android:id="@+id/pop_desktop_text_user"
+            style="@style/pop_desktop_text_user"
+            android:text="98%的用户安装"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/pop_desktop_btn"
+        style="@style/pop_desktop_btn"
+        android:text="@string/pop_desktop_install"/>
+</RelativeLayout>
